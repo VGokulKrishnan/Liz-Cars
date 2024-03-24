@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-style: bold;
+    font-weight: 150;
+    padding: 20px;
+}
+.content h2{
+    margin: 20px;
+    font-size: 30px;
+}
+.content p{
+    text-align: left;
+}
+.Specs{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    display: block;
+    height: 500px;
+    width: 900px;
+    align-items: center;
+    margin: 0 0 100px 300px;
+}

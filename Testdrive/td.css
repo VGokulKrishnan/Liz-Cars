@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, sans-serif;
+    background-image: url(/images/car.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: cover;
+    color: #ffffff;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+}
+button a:hover {
+    color: #464343;
+}

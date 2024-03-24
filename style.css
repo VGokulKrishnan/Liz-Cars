@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/car.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 1;
+    padding: 10px;
+    cursor: pointer;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navbar ul{
+    margin: 0px;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    padding: 0 0 0 10px;
+    margin: 20px;
+    display: flex;
+    gap: 30px;   
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+}
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+}
+.icon{
+    margin: 0 auto 0 50px;
+    
+}
+.icon a{
+    font-size: 25px;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    transition: .5s;
+}
+.icon a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+}
+.know{
+    font-size: 20px;
+    border: 1px double;
+    display: flex;
+    border: 2px solid #fff;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.navbar li:hover .dropdown-content {
+    display: block;
+    
+    
+}
+.details{
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    line-height: 35px;
+    padding: 0 0 70px 100px;
+}
+.details a{
+    border: 2px solid;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+}
+.details a:hover{
+    background: rgb(62, 60, 60);
+    color: black;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bye{
+        display: none;
+
+    }
+    .hi{
+        display: block;
+    }
+    .icon a{
+        display: none;
+    }
+    .know{
+        display: none;
+    }
+    .details{
+        display: inline-block;
+        font-size: 10px;
+    }
+}

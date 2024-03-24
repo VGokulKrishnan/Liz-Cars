@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    font-style: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+.content h2{
+    text-align: left;
+}
+.content p{
+    text-align: left;
+}
